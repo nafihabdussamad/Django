@@ -37,19 +37,18 @@ h1{
     text-align: left;
 }
 .inputbox{
+    width: 100%;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.2;
     color: #e6e6e6;
-    border-color: #e6e6e6;
-    border: 1px solid transparent;
     display: block;
-    width: 100%;
     background: #e6e6e6;
     height: 62px;
     border-radius: 3px;
     padding: 0 30px 0 65px;
+    border:none;
 }
 #loginbtn{
     font-family: 'Raleway', sans-serif;
@@ -57,8 +56,6 @@ h1{
     color: white;
     justify-content: center;
     align-items: center;
-    border: 1px solid transparent;
-    border-color: #0f6cbf;
     cursor:pointer;
     text-transform: uppercase;
     padding: 0 25px;
