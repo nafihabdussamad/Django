@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'Login.css' %}">
+    <title>Oyappanmaar</title>
+</head>
+<body>
+  <h1>Login</h1>
+    <form action="check/" method="post">
+        {% csrf_token %}
+        Username :<br>
+        <input name="user">
+        <br><br>
+        Password :<br>
+        <input type="password" name="pwd">
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+    <a href="new_user/">Sign Up</a>
+    <br>
+    {% if test == 0 %}
+        <p>User not Found ! Register New User</p>
+    {% elif test == 1 %}
+        <p>Wrong Password ! Try Again</p>
+    {% endif %}
+</body>
+</html>
