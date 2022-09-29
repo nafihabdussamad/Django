@@ -1,3 +1,78 @@
-body {
-    background-color: lightblue;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,700;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;0,800;1,200;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;0,700;0,800;1,200;1,600&display=swap');
+body{
+    background-color: #f8f9fa;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h1{
+    margin-top:3rem;
+    margin-bottom:3rem;
+    font-family: 'Raleway', sans-serif;
+   font-weight: 800;
+    color: #333;
+    text-transform: uppercase;
+}
+.box{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.8rem 0.01rem rgba(0,0,0,0.3);
+    width : 35%;
+    height: 65%;
+    position: absolute;
+    top:10%;
+    left:33%;
+    padding-top: 2%;
+    text-align: center;
+    
+}
+.formbox{
+    width:65%;
+    margin:auto;
+    position:relative;
+    text-align: left;
+}
+.inputbox{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+    border: 1px solid transparent;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 62px;
+    border-radius: 3px;
+    padding: 0 30px 0 65px;
+}
+#loginbtn{
+    font-family: 'Raleway', sans-serif;
+    background: #d33f8d;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-color: #0f6cbf;
+    cursor:pointer;
+    text-transform: uppercase;
+    padding: 0 25px;
+    border: none;
+}
+.signup{
+    width : 100%;
+    padding-top: 2rem;
+    text-align: center;
+}
+.signtext{
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999;
+    line-height: 1.4
+}
